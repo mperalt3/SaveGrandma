@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{FCCCC165-CA26-287A-6A4B-99252BEA1F87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcCursorChangeLinearEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcCursorDrawer.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcCursorEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectRotateEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectTranslateEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcMathEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Cc\BGCcVisualizationLineRendererEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCcEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorComponents.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorFields.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorPoint.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorPoints.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorPointsSelection.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorSettings.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGCurveEditorTab.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGNewPointPositionManager.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Curve\BGRectangularSelection.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGCcAddWindow.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGCcChangeNameWindow.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGCcChoseDrawer.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGCcChoseWindow.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGCurvePainterGizmo.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGCurvePainterHandles.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGHandlesSettingsDrawer.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGPropertyDrawer.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Infra\BGTransformMonitor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGOverlayMessage.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGPopupMenu.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlay.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayMenu.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayMenuPoint.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayMenuSelection.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAdd.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAddAtDistance.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAddSnap2D.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAddSnap3D.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Settings\BGCurveSettingsForEditor.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Settings\BGCurveSettingsForEditorWindow.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Settings\BGCurveSettingsOperations.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Settings\BGCurveSettingsSO.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Utils\BGEditorUtility.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Utils\BGPrivateField.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Utils\BGStartUp.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Utils\BGTransition.cs" />
+     <Compile Include="Assets\Scenes\Level Benja\Plugins\BGCurve\Scripts\Editor\Utils\BGTreeView.cs" />
+     <None Include="Assets\Plugins\VRTK\Version.txt" />
+     <None Include="Assets\Scenes\Level Benja\Plugins\WesternToonLevelPack\Shaders\Vegetation-Lightmap.shader" />
+     <None Include="Assets\Plugins\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\Plugins\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Plugins\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\Scenes\Level Benja\Plugins\WesternToonLevelPack\Shaders\Rim.shader" />
+     <None Include="Assets\Plugins\PackageUninstaller\README.txt" />
+     <None Include="Assets\Plugins\VRTK\Scripts\Shaders\UIOverlay.shader" />
+     <None Include="Assets\Plugins\VRTK\Scripts\Shaders\VRTK_OutlineBasic.shader" />
+     <None Include="Assets\Scenes\Level Benja\Plugins\WesternToonLevelPack\Shaders\DoubleSided.shader" />
+     <None Include="Assets\Plugins\VRTK\Scripts\Shaders\AdaptiveQualityDebugVisualization.shader" />
+     <None Include="Assets\Scenes\Level Benja\Plugins\BGCurve\readme.txt" />
+     <None Include="Assets\Plugins\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\Plugins\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Plugins\VRTK\Scripts\Shaders\TransparentFresnelBehind.shader" />
+     <None Include="Assets\Plugins\SteamVR\readme.txt" />
+     <None Include="Assets\Plugins\VRTK\Scripts\Shaders\Unlit_TransparentColor.shader" />
+     <None Include="Assets\Plugins\SteamVR\Resources\SteamVR_ColorOut.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/Users/benjavides/Desktop/Jugable 1/Someone Save Grandma/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="SharpCompress.3.5">
+ <HintPath>C:/Users/benjavides/Desktop/Jugable 1/Someone Save Grandma/Assets/Plugins/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{499F837E-C463-D0C1-161D-01DAACC0C8EA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{74E78E75-E53D-63D7-B3F5-22BF9B8AF00E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{760285DA-3030-0A04-430B-E8CA1DDAC0ED}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

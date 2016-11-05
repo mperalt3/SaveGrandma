@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: b542c55a645a0f74e99cf01d6edde06c
+timeCreated: 1478213419
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Boca
+    100004: Boca.001
+    100006: Cabeza.003
+    100008: Camera
+    100010: Circle.007
+    100012: Circle.008
+    100014: Circle.009
+    100016: Circle.010
+    100018: Circle.011
+    100020: Cube.004
+    100022: Cube.005
+    100024: Cuerpo
+    100026: Icosphere.001
+    100028: Icosphere.002
+    100030: Icosphere.008
+    100032: lente palo
+    100034: mixamorig:Head
+    100036: mixamorig:HeadTop_End
+    100038: mixamorig:Hips
+    100040: mixamorig:LeftArm
+    100042: mixamorig:LeftFoot
+    100044: mixamorig:LeftForeArm
+    100046: mixamorig:LeftHand
+    100048: mixamorig:LeftLeg
+    100050: mixamorig:LeftShoulder
+    100052: mixamorig:LeftToe_End
+    100054: mixamorig:LeftToeBase
+    100056: mixamorig:LeftUpLeg
+    100058: mixamorig:Neck
+    100060: mixamorig:RightArm
+    100062: mixamorig:RightFoot
+    100064: mixamorig:RightForeArm
+    100066: mixamorig:RightHand
+    100068: mixamorig:RightLeg
+    100070: mixamorig:RightShoulder
+    100072: mixamorig:RightToe_End
+    100074: mixamorig:RightToeBase
+    100076: mixamorig:RightUpLeg
+    100078: mixamorig:Spine
+    100080: mixamorig:Spine1
+    100082: mixamorig:Spine2
+    100084: pantufla
+    100086: pantufla.001
+    100088: pantufla.002
+    100090: pantufla.003
+    100092: pata
+    100094: pata.001
+    100096: pata_Cylinder
+    100098: PELO.001
+    100100: Sphere.000
+    100102: Sphere.001
+    100104: Sphere.002
+    100106: Sphere.003
+    100108: Sphere.004
+    100110: Sphere.005
+    100112: Spot
+    100114: Sun
+    400000: //RootNode
+    400002: Boca
+    400004: Boca.001
+    400006: Cabeza.003
+    400008: Camera
+    400010: Circle.007
+    400012: Circle.008
+    400014: Circle.009
+    400016: Circle.010
+    400018: Circle.011
+    400020: Cube.004
+    400022: Cube.005
+    400024: Cuerpo
+    400026: Icosphere.001
+    400028: Icosphere.002
+    400030: Icosphere.008
+    400032: lente palo
+    400034: mixamorig:Head
+    400036: mixamorig:HeadTop_End
+    400038: mixamorig:Hips
+    400040: mixamorig:LeftArm
+    400042: mixamorig:LeftFoot
+    400044: mixamorig:LeftForeArm
+    400046: mixamorig:LeftHand
+    400048: mixamorig:LeftLeg
+    400050: mixamorig:LeftShoulder
+    400052: mixamorig:LeftToe_End
+    400054: mixamorig:LeftToeBase
+    400056: mixamorig:LeftUpLeg
+    400058: mixamorig:Neck
+    400060: mixamorig:RightArm
+    400062: mixamorig:RightFoot
+    400064: mixamorig:RightForeArm
+    400066: mixamorig:RightHand
+    400068: mixamorig:RightLeg
+    400070: mixamorig:RightShoulder
+    400072: mixamorig:RightToe_End
+    400074: mixamorig:RightToeBase
+    400076: mixamorig:RightUpLeg
+    400078: mixamorig:Spine
+    400080: mixamorig:Spine1
+    400082: mixamorig:Spine2
+    400084: pantufla
+    400086: pantufla.001
+    400088: pantufla.002
+    400090: pantufla.003
+    400092: pata
+    400094: pata.001
+    400096: pata_Cylinder
+    400098: PELO.001
+    400100: Sphere.000
+    400102: Sphere.001
+    400104: Sphere.002
+    400106: Sphere.003
+    400108: Sphere.004
+    400110: Sphere.005
+    400112: Spot
+    400114: Sun
+    4300000: pata_Cylinder
+    4300002: Boca.001
+    4300004: pantufla.002
+    4300006: pata.001
+    4300008: pantufla.003
+    4300010: pantufla
+    4300012: pantufla.001
+    4300014: pata
+    4300016: Sphere.002
+    4300018: Sphere.005
+    4300020: Sphere.001
+    4300022: Sphere.000
+    4300024: Icosphere.008
+    4300026: Cuerpo
+    4300028: lente palo
+    4300030: Boca
+    4300032: Circle.011
+    4300034: Icosphere.002
+    4300036: Icosphere.001
+    4300038: Circle.010
+    4300040: PELO.001
+    4300042: Sphere.004
+    4300044: Sphere.003
+    4300046: Circle.009
+    4300048: Circle.008
+    4300050: Cube.005
+    4300052: Cube.004
+    4300054: Circle.007
+    4300056: Cabeza.003
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Boca
+    13700002: Boca.001
+    13700004: Cabeza.003
+    13700006: Circle.007
+    13700008: Circle.008
+    13700010: Circle.009
+    13700012: Circle.010
+    13700014: Circle.011
+    13700016: Cube.004
+    13700018: Cube.005
+    13700020: Cuerpo
+    13700022: Icosphere.001
+    13700024: Icosphere.002
+    13700026: Icosphere.008
+    13700028: lente palo
+    13700030: pantufla
+    13700032: pantufla.001
+    13700034: pantufla.002
+    13700036: pantufla.003
+    13700038: pata
+    13700040: pata.001
+    13700042: pata_Cylinder
+    13700044: PELO.001
+    13700046: Sphere.000
+    13700048: Sphere.001
+    13700050: Sphere.002
+    13700052: Sphere.003
+    13700054: Sphere.004
+    13700056: Sphere.005
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
